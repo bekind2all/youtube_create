@@ -1,0 +1,11 @@
+--- tools/build_video.py.orig	2026-09-27 04:00:17.218042812 +0000
++++ tools/build_video.py	2026-09-27 04:00:35.668265621 +0000
+@@ -54,7 +54,7 @@
+ """
+ def sub_css(w,h,portrait):
+     s=css(w,h,portrait)
+-    s=re.sub(r"@font-face\\{[^}]+\\}", "", s)
++    s=re.sub(r"@font-face\{[^}]+\}", "", s)
+     return s.replace("font-family:Pretendard,sans-serif","font-family:inherit")
+ def title(s): return "".join('<span class="title-line">'+esc(line)+'</span>' for line in s.split("\n"))
+ def content(phase,uid):
