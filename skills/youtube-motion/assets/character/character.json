@@ -1,0 +1,31 @@
+{
+  "id": "todayai-host",
+  "role": "user_representative_presenter",
+  "approved_reference": "reference-approved.png",
+  "reference_status": "user_approved",
+  "model_sheet": "model-sheet.png",
+  "variants_status": "generated_for_review",
+  "invariants": [
+    "short_center_parted_wavy_hair",
+    "simple_oval_eyes",
+    "friendly_smile",
+    "rolled_sleeve_white_collared_shirt",
+    "black_trousers",
+    "notebook"
+  ],
+  "poses": [
+    "front",
+    "profile",
+    "back",
+    "pointing_with_book",
+    "open_palm_explaining",
+    "thinking"
+  ],
+  "expressions": [
+    "smile",
+    "realization",
+    "question"
+  ],
+  "motion_asset_status": "local_masked_lottie_prototype_not_final_approved",
+  "appearance_default": "off"
+}

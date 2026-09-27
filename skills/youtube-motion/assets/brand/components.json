@@ -1,0 +1,33 @@
+{
+  "palette": {
+    "black": "#000000",
+    "navy": "#14213D",
+    "yellow": "#FCA311",
+    "gray": "#E5E5E5",
+    "white": "#FFFFFF"
+  },
+  "icons": [
+    "document",
+    "search",
+    "clock",
+    "price",
+    "play",
+    "chart"
+  ],
+  "stroke": {
+    "icon_viewbox_120": 5,
+    "annotation_1920_canvas": 12,
+    "marker_1920_canvas": 25,
+    "linecap": "round",
+    "linejoin": "round"
+  },
+  "timing": {
+    "writing_character_seconds": 0.065,
+    "stroke_seconds": [
+      0.4,
+      0.7
+    ],
+    "related_element_stagger_seconds": 0.22
+  },
+  "photo_note": "Photo-style generated concept; replace with real authorized footage for documentary demonstrations."
+}

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "approved_speaking_pace": "Aside 1.25x version, 2026-09-27",
+  "longform": {
+    "sentence_end_seconds": 0.4,
+    "emphasis_end_seconds": 1.0,
+    "topic_change_seconds": 1.2,
+    "scene_change_seconds": 0.65,
+    "apply_as": "minimum total pause including existing natural silence",
+    "pause_only_after_complete_thought": true,
+    "preserve_speech_speed_and_pitch": true,
+    "hold_current_visual_and_caption_during_pause": true,
+    "extend_runtime_instead_of_accelerating_speech": true
+  },
+  "shortform": {
+    "status": "user approved current rhythm",
+    "current_episode_file": "오늘AI_Aside_숏폼_48초_1.25배속.mp4",
+    "apply_longform_pauses": false
+  }
+}

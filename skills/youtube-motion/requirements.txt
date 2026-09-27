@@ -1,0 +1,2 @@
+cryptography>=46.0.6,<47
+fonttools[woff]>=4.63.0,<5

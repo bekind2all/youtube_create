@@ -1,0 +1,51 @@
+[
+  {
+    "number": "01",
+    "file": "assets/palettes/palette-01.png",
+    "colors": [
+      "#780000",
+      "#C1121F",
+      "#FDF0D5",
+      "#003049",
+      "#669BBC"
+    ]
+  },
+  {
+    "number": "02",
+    "file": "assets/palettes/palette-02.png",
+    "colors": [
+      "#000000",
+      "#14213D",
+      "#FCA311",
+      "#E5E5E5",
+      "#FFFFFF"
+    ]
+  },
+  {
+    "number": "03",
+    "file": "assets/palettes/palette-03.png",
+    "colors": [
+      "#FFFCF2",
+      "#CCC5B9",
+      "#403D39",
+      "#252422",
+      "#EB5E28"
+    ]
+  },
+  {
+    "number": "04",
+    "file": "assets/palettes/palette-04.png",
+    "colors": [
+      "#0466C8",
+      "#0353A4",
+      "#023E7D",
+      "#002855",
+      "#001845",
+      "#001233",
+      "#33415C",
+      "#5C677D",
+      "#7D8597",
+      "#979DAC"
+    ]
+  }
+]

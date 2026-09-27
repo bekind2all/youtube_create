@@ -1,0 +1,8 @@
+{
+  "name": "youtube-motion-toolkit",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Portable TodayAI HyperFrames tools and brand assets",
+  "engines": {"node": ">=22"},
+  "dependencies": {"hyperframes": "0.8.79", "gsap": "3.13.0"}
+}

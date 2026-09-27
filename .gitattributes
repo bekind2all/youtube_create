@@ -1,0 +1,10 @@
+/skills/** text=auto eol=lf
+/tests/** text=auto eol=lf
+/*.py text eol=lf
+/*.md text eol=lf
+/.gitignore text eol=lf
+/owner-backup/*.md text eol=lf
+*.png binary
+*.ttf binary
+*.woff2 binary
+*.ymenc binary

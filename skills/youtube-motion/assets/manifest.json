@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "assets/boards/character-board.png",
+      "bytes": 932745,
+      "sha256": "3716af3f684f1e1bf81e584b5c2b97a03b40ae2a3b231e7d299d892ba38dbd72"
+    },
+    {
+      "path": "assets/boards/design-board.png",
+      "bytes": 379003,
+      "sha256": "ef7154b4b98ef8cf655ed10ee952cc42941c1230b825ea2942141f9622f66a58"
+    },
+    {
+      "path": "assets/boards/mood-board.png",
+      "bytes": 594197,
+      "sha256": "3f36c81d4505c8bafe7957556826e3deefe460387728a1dc5df18c07fc904e68"
+    },
+    {
+      "path": "assets/brand/brand.json",
+      "bytes": 752,
+      "sha256": "f690b7598a7a878c0a3493803fdcfc967ce162732238ab2351dd4eb2ad1fb1b7"
+    },
+    {
+      "path": "assets/brand/components.json",
+      "bytes": 671,
+      "sha256": "70771557f029a243eb17b8416fe625554b83acc608096ef412cc83dfa32cdc2c"
+    },
+    {
+      "path": "assets/brand/narration-rhythm.json",
+      "bytes": 695,
+      "sha256": "c7f319941047a1212b701509e9a6759c2411283bfc355b7c316ae784782be0d5"
+    },
+    {
+      "path": "assets/brand/palettes.json",
+      "bytes": 812,
+      "sha256": "10a9da3de20507e6f1a92feb820e5232e063a870cf939253b1f7a44494fe9e64"
+    },
+    {
+      "path": "assets/character/character.json",
+      "bytes": 731,
+      "sha256": "2bbccc2808e69fd2f74ccf52ba84efcf19764c51802de5565240bc80308596ae"
+    },
+    {
+      "path": "assets/character/host-pointing.png",
+      "bytes": 1094615,
+      "sha256": "078a1134e80107f4a4c5490e9583ee9b1394903cdadfc458028ba3fde0866b46"
+    },
+    {
+      "path": "assets/character/model-sheet.png",
+      "bytes": 1003142,
+      "sha256": "f37b54372b64f7a7a5c6bd7c5bf5f6d876c0fc8e450a309ebe66830e8c708a2a"
+    },
+    {
+      "path": "assets/character/reference-approved.png",
+      "bytes": 1273031,
+      "sha256": "da5a96a4556c2723d3325da0f3c3a6f5e73fab4a594dd85bb574deccf56f8d14"
+    },
+    {
+      "path": "assets/fonts/Gwangyang-NOTICE.md",
+      "bytes": 736,
+      "sha256": "648faea9a5b44da9d159023872f6b5be9b70c632ad6b62578b813c790a717456"
+    },
+    {
+      "path": "assets/fonts/GwangyangTouching.ttf",
+      "bytes": 1389360,
+      "sha256": "1a43aee451edbe1d9d2d870fa8440ffe20be686f5e83508a634de033139a2230"
+    },
+    {
+      "path": "assets/fonts/Paperlogy-4Regular.woff2",
+      "bytes": 433236,
+      "sha256": "f77c09d772836bf9d95a2cccf5edd7c1fd5c9466cdeb7a60f8d8e2402fb3d3a6"
+    },
+    {
+      "path": "assets/fonts/Paperlogy-5Medium.woff2",
+      "bytes": 436224,
+      "sha256": "757b201d31d85b6b7698df1365cd17bd1f113a9b7777047e6f1ee320b06d4873"
+    },
+    {
+      "path": "assets/fonts/Paperlogy-7Bold.woff2",
+      "bytes": 437588,
+      "sha256": "f040c83ada70bc7e5c19d4cf08f7cce09c606d46ab9fdc0071b4029af30ef1fd"
+    },
+    {
+      "path": "assets/fonts/Paperlogy-8ExtraBold.woff2",
+      "bytes": 428120,
+      "sha256": "88ecbf4e1eb76488080aa9fd59de3af1679cfeb48c0a1aa0d47b6b6c3c538fb3"
+    },
+    {
+      "path": "assets/fonts/Paperlogy-OFL.txt",
+      "bytes": 4379,
+      "sha256": "a5a9b6832b5d91b5389e258b82f788791493fb786979eb80b5e142b5664ba22a"
+    },
+    {
+      "path": "assets/icons/arrow.svg",
+      "bytes": 269,
+      "sha256": "a65a6199b0d9c7d191ff1f01233bac80af49221ba79304d0287f6b5912260116"
+    },
+    {
+      "path": "assets/icons/chart.svg",
+      "bytes": 354,
+      "sha256": "39c5f481e761c404b440a63b09c868c52d62b87377c4e0096610a1716f5207cb"
+    },
+    {
+      "path": "assets/icons/circle.svg",
+      "bytes": 302,
+      "sha256": "97f03124d0dc1bd893c3f7cd9b3eed57ebe20be40c8f10bbac0b64e30336bfd0"
+    },
+    {
+      "path": "assets/icons/clock.svg",
+      "bytes": 357,
+      "sha256": "52d110f7a83e637720a601566d9ab9b166989a7d5481b168777b44d28fb8cd5f"
+    },
+    {
+      "path": "assets/icons/document.svg",
+      "bytes": 394,
+      "sha256": "3e534e828a9d66cf95af5e5e66f6651f730b300597ab5bfefb1613134e49400e"
+    },
+    {
+      "path": "assets/icons/play.svg",
+      "bytes": 325,
+      "sha256": "6213f7ba8288e876ce82721728b4e45040b7b1546a6e44733c7df19cf7848748"
+    },
+    {
+      "path": "assets/icons/price.svg",
+      "bytes": 295,
+      "sha256": "d27a349254bafab22bb6ae445a5913d3795c23b0eacdcec123978a08bd6e798b"
+    },
+    {
+      "path": "assets/icons/search.svg",
+      "bytes": 277,
+      "sha256": "74d4708528bc4251d4aa1a0509cdf25ffeae9e790b2389bce0154903f591df43"
+    },
+    {
+      "path": "assets/icons/underline.svg",
+      "bytes": 235,
+      "sha256": "fb590633b65c25de3b1b4d49433bb4314b91176baead5b3587f508667a2b9f9b"
+    },
+    {
+      "path": "assets/palettes/palette-01.png",
+      "bytes": 19716,
+      "sha256": "3139f80855273508a24b1f1640e902efeb1fe218ada211e4dfc088bc792896c3"
+    },
+    {
+      "path": "assets/palettes/palette-02.png",
+      "bytes": 20047,
+      "sha256": "0d219d03a2a9854201f813f253c1cf516bfe27d87a73e9bba7c6cad678b06d14"
+    },
+    {
+      "path": "assets/palettes/palette-03.png",
+      "bytes": 20147,
+      "sha256": "f46956c0951331a0d77bc9b675ab0b9491831d9b66fa318057374f24a345b681"
+    },
+    {
+      "path": "assets/palettes/palette-04.png",
+      "bytes": 19905,
+      "sha256": "3db207b18c56a214415ae876af95ad65e4e9db6189d6130e1afd0f4600475e20"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>오늘AI · 설치 확인용 모션</title>
+<script src="assets/vendor/gsap.min.js"></script>
+<style>
+@font-face{font-family:Paper;src:url('assets/fonts/Paperlogy-4Regular.woff2');font-weight:400}
+@font-face{font-family:Paper;src:url('assets/fonts/Paperlogy-7Bold.woff2');font-weight:700}
+@font-face{font-family:Paper;src:url('assets/fonts/Paperlogy-8ExtraBold.woff2');font-weight:800}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}
+#main{position:relative;width:100%;height:100%;overflow:hidden;background:#14213D;font-family:Paper,sans-serif;color:#FFFFFF}
+.brand{position:absolute;top:62px;left:90px;font-size:36px;font-weight:800;z-index:10}
+.note{position:absolute;bottom:54px;left:90px;font-size:26px;color:#E5E5E5;z-index:10}
+.clip{position:absolute;inset:0}.stage{position:absolute;inset:0;padding:230px 100px 170px}
+.kicker{font-size:36px;margin-bottom:24px;color:#FCA311}
+h1{font-size:138px;font-weight:800;line-height:1.18;margin:0;letter-spacing:-2px}
+.phrase{overflow:hidden}.phrase span{display:block;position:relative;width:100%}
+.lead{max-width:1100px}.summary{font-size:38px;line-height:1.5;margin-top:45px;max-width:1150px}
+.accent{color:#FCA311}.stroke{fill:none;stroke:#FCA311;stroke-width:20;stroke-linecap:round}
+.marker{position:absolute;left:90px;top:420px;width:1000px;height:75px}
+.flow-title{font-size:68px;line-height:1.3;margin:0 0 90px;font-weight:800}
+.flow{display:flex;align-items:center;gap:16px;width:100%}.unit{width:300px;text-align:center}
+.unit img{width:140px;height:140px;background:#FFFFFF;border-radius:24px;padding:18px}
+.unit p{font-size:36px;margin-top:28px}.connector{width:210px;height:110px;flex-shrink:0;align-self:flex-start;margin-top:15px}
+.connector path{stroke-width:9}.word{font-size:170px;font-weight:800;line-height:1.25}
+.end .summary{font-size:44px;margin-top:35px}
+.vertical .brand{top:95px;left:64px;font-size:40px}.vertical .note{left:64px;right:100px;bottom:190px;font-size:26px;line-height:1.5}
+.vertical .stage{padding:360px 90px 340px 64px}.vertical h1{font-size:103px;line-height:1.3;letter-spacing:0}
+.vertical .kicker{font-size:32px}.vertical .summary{font-size:38px;line-height:1.65;margin-top:55px}
+.vertical .marker{left:58px;top:560px;width:760px;height:70px}
+.vertical .flow-title{font-size:62px;line-height:1.5;margin-bottom:55px}
+.vertical .flow{flex-direction:column;gap:6px;align-items:flex-start}
+.vertical .unit{width:100%;display:flex;align-items:center;gap:40px;text-align:left}
+.vertical .unit img{width:120px;height:120px;flex-shrink:0}.vertical .unit p{font-size:40px;margin:0}
+.vertical .connector{width:110px;height:80px;margin-left:155px;margin-top:0}.vertical .word{font-size:116px;line-height:1.5}
+.vertical .end .summary{font-size:37px}
+</style></head><body>
+<div id="main" class="__FORMAT__" data-composition-id="main" data-width="__WIDTH__" data-height="__HEIGHT__" data-duration="12" data-fps="30">
+<div class="brand">오늘AI</div><div class="note">설치 확인용 무음 시안 · 실제 제품 시연 아님</div>
+<section class="clip" data-start="0" data-duration="4" data-track-index="0"><div class="stage" id="hook">
+<div class="kicker">결과가 먼저 보이는 설명</div><h1 class="lead"><div class="phrase"><span id="phrase1">정보를,</span></div><div class="phrase"><span id="phrase2">내 일에 연결.</span></div></h1>
+<svg class="marker" viewBox="0 0 1000 75"><path id="mark" class="stroke" d="M20 48 Q420 28 965 42"/></svg>
+<p class="summary">읽기 편한 글자와 의미 있는 움직임.</p></div></section>
+<section class="clip" data-start="4" data-duration="4" data-track-index="1"><div class="stage" id="process">
+<h2 class="flow-title">흩어진 자료가<br>하나의 결과로.</h2><div class="flow">
+<div class="unit" id="input"><img src="assets/icons/search.svg" alt="검색"><p>자료 확인</p></div>
+<svg class="connector" viewBox="0 0 210 110"><defs><marker id="head1" markerWidth="4" markerHeight="4" refX="3" refY="2" orient="auto"><path d="M0 0 L4 2 L0 4" fill="none" stroke="#FCA311" stroke-width=".7"/></marker></defs><path class="stroke" id="line1" d="M5 55 H200" marker-end="url(#head1)"/></svg>
+<div class="unit" id="document"><img src="assets/icons/document.svg" alt="문서"><p>핵심 정리</p></div>
+<svg class="connector" viewBox="0 0 210 110"><defs><marker id="head2" markerWidth="4" markerHeight="4" refX="3" refY="2" orient="auto"><path d="M0 0 L4 2 L0 4" fill="none" stroke="#FCA311" stroke-width=".7"/></marker></defs><path class="stroke" id="line2" d="M5 55 H200" marker-end="url(#head2)"/></svg>
+<div class="unit" id="result"><img src="assets/icons/chart.svg" alt="결과"><p>결과 비교</p></div>
+</div></div></section>
+<section class="clip" data-start="8" data-duration="4" data-track-index="2"><div class="stage end" id="finish">
+<div class="kicker">핵심을 읽을 시간까지</div><div class="word" id="understand">보고<span class="accent">.</span></div><div class="word" id="use">이해하고<span class="accent">.</span></div>
+<p class="summary" id="closing">오늘 내 일에 써보세요.</p></div></section>
+</div>
+</body></html>

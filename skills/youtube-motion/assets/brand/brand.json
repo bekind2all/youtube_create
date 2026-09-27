@@ -1,0 +1,17 @@
+{
+  "name": "오늘AI",
+  "palette_number": "02",
+  "palette": {"ink":"#000000","navy":"#14213D","accent":"#FCA311","muted":"#E5E5E5","paper":"#FFFFFF"},
+  "fonts": {
+    "heading":"Paperlogy-8ExtraBold.woff2",
+    "subheading":"Paperlogy-7Bold.woff2",
+    "body":"Paperlogy-4Regular.woff2",
+    "captions":"Paperlogy-5Medium.woff2",
+    "annotation_original":"GwangyangTouching.ttf"
+  },
+  "character": {"reference":"assets/character/reference-approved.png","appearance_default":"off"},
+  "voice": {"provider":"google","mode":"replicated_owner_voice","model":"gemini-3.8-flash-tts","profile_location":"private/google-voice-profile.json"},
+  "engine":"hyperframes",
+  "platforms":["youtube","instagram_reels"],
+  "publish_policy":"after_user_review"
+}
