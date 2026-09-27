@@ -17,6 +17,8 @@
 | 참고 포즈·캐릭터 정의 | `assets/character/character.json`, 같은 폴더의 PNG |
 | 디자인·무드·캐릭터 보드 | `assets/boards/` |
 | SVG 아이콘·밑줄·화살표·동그라미 | `assets/icons/` |
+| 부분별로 움직이는 설명 일러스트 4종 | `assets/illustrations/`, 사용법은 `references/motion-direction.md` |
+| 글자 폭·선 끝 여백을 맞추는 보조 함수 | `assets/motion/fit-text-underlines.js`, 적용 조건은 `references/precision-checks.md` |
 | 자산 체크섬 | `assets/manifest.json` |
 
 보드는 이전 시안이다. 최신 `motion-direction.md`의 다양한 구성·설명하는 움직임 기준을 함께 적용한다. 승인된 캐릭터의 정체성과 파생 포즈·모션의 최종 승인을 구분한다.

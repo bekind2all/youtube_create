@@ -29,5 +29,25 @@
     ],
     "related_element_stagger_seconds": 0.22
   },
-  "photo_note": "Photo-style generated concept; replace with real authorized footage for documentary demonstrations."
+  "photo_note": "Photo-style generated concept; replace with real authorized footage for documentary demonstrations.",
+  "illustrations": {
+    "directory": "assets/illustrations",
+    "files": [
+      "ai-workbench.svg",
+      "filming-reminder.svg",
+      "review-and-revise.svg",
+      "voice-to-calendar.svg"
+    ],
+    "layer_attribute": "data-part",
+    "draw_attribute": "data-draw",
+    "palette_variables": [
+      "--art-ink",
+      "--art-paper",
+      "--art-accent",
+      "--art-on-accent",
+      "--art-deep",
+      "--art-soft"
+    ],
+    "usage": "Explanation art, not real product UI; update all numbers and clock hands for each example."
+  }
 }

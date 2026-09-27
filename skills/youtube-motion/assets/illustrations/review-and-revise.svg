@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="일정 앱 결과를 확대해 확인하고 수정하는 설명 일러스트">
+<title>일정 앱 결과를 확대해 확인하고 수정하는 설명 일러스트</title>
+<g stroke="var(--art-ink,#14213D)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" font-family="Paper,sans-serif" font-weight="800">
+
+<g data-part="ground" stroke="none"><ellipse cx="447" cy="633" rx="388" ry="30" fill="var(--art-soft,#E5E5E5)"/></g>
+<g data-part="papers"><path d="m100 212 300-41 50 348-300 41Z" fill="var(--art-soft,#E5E5E5)"/><path d="m128 174 316-9 11 349-316 9Z" fill="var(--art-paper,#FFFFFF)"/><path d="M166 225h195M166 261h136M168 302h189" stroke="var(--art-soft,#E5E5E5)" stroke-width="12"/></g>
+<g data-part="app">
+ <rect x="302" y="50" width="330" height="566" rx="35" fill="var(--art-deep,#14213D)"/>
+ <rect x="322" y="77" width="290" height="498" rx="17" fill="var(--art-paper,#FFFFFF)"/>
+ <path d="M434 95h65" stroke="var(--art-soft,#E5E5E5)"/>
+ <rect x="350" y="146" width="234" height="92" rx="13" fill="var(--art-soft,#E5E5E5)" stroke="none"/>
+ <text x="467" y="206" font-size="43" text-anchor="middle" stroke="none" fill="var(--art-ink,#14213D)">15:00</text>
+ <path d="M353 292h189M353 331h139M353 371h188" stroke-width="13" stroke="var(--art-soft,#E5E5E5)"/>
+ <path d="M438 594h57" stroke="var(--art-paper,#FFFFFF)"/>
+</g>
+<g data-part="magnifier"><path d="m665 303 87 91" stroke-width="45" stroke="var(--art-ink,#14213D)"/><path d="m665 303 87 91" stroke-width="25" stroke="var(--art-accent,#FCA311)"/><circle cx="598" cy="239" r="94" fill="var(--art-paper,#FFFFFF)" stroke-width="13"/><text x="598" y="255" text-anchor="middle" font-size="46" fill="var(--art-ink,#14213D)" stroke="none">15:00</text><path d="M548 189q20-23 45-22" fill="none" stroke="var(--art-soft,#E5E5E5)"/></g>
+<g data-part="reminder"><rect x="349" y="422" width="235" height="110" rx="14" fill="var(--art-accent,#FCA311)" stroke="none"/><text x="467" y="493" font-size="44" fill="var(--art-on-accent,#14213D)" stroke="none" text-anchor="middle">30분 전</text></g>
+<g data-part="edit" fill="none" stroke="var(--art-accent,#FCA311)" stroke-width="10"><path data-draw="true" d="M628 552q62-40 126-6M634 569q51-20 94-6"/></g>
+<g data-part="pencil"><path d="m733 327 51 35-109 158-51-35Z" fill="var(--art-soft,#E5E5E5)"/><path d="m733 327 13-18q10-13 24-4l26 18q14 10 4 25l-16 14Z" fill="var(--art-accent,#FCA311)"/><path d="m624 485-15 67 66-32Z" fill="var(--art-paper,#FFFFFF)"/><path d="m612 538-3 14 16-7" fill="var(--art-ink,#14213D)"/><path d="m749 346-94 138" fill="none" stroke-width="5"/></g>
+
+</g></svg>

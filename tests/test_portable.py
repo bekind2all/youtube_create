@@ -85,8 +85,8 @@ class VoicePrivacyTests(unittest.TestCase):
                 with patch.object(google_tts.request, "urlopen", return_value=io.BytesIO(json.dumps(payload).encode())):
                     result = google_tts.synthesize("검증", "private-test-speaker-id", "gemini-3.8-flash-tts", "test", output)
             self.assertEqual(result["duration_seconds"], 0.1)
-            self.assertNotIn("private-test-speaker-id", output.with_suffix(".json").read_text())
-            self.assertNotIn("test-key", output.with_suffix(".json").read_text())
+            self.assertNotIn("private-test-speaker-id", output.with_suffix(".json").read_text(encoding="utf-8"))
+            self.assertNotIn("test-key", output.with_suffix(".json").read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":

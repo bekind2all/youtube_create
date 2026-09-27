@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="촬영 전에 알림을 받도록 설정하는 카메라와 알람시계 설명 일러스트">
+<title>촬영 전에 알림을 받도록 설정하는 카메라와 알람시계 설명 일러스트</title>
+<g stroke="var(--art-ink,#14213D)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" font-family="Paper,sans-serif" font-weight="800">
+
+<g data-part="ground"><path d="M32 631h823" stroke="var(--art-soft,#E5E5E5)"/></g>
+<g data-part="camera">
+ <path d="M245 366v51M245 417 108 631M245 417l137 214M245 417v214" fill="none" stroke-width="14"/>
+ <path d="M179 374h131v39H179Z" fill="var(--art-soft,#E5E5E5)"/>
+ <path d="M87 191h69l29-38h112l30 38h44q25 0 25 25v135q0 22-24 22H91q-26 0-26-25V217q0-26 22-26Z" fill="var(--art-soft,#E5E5E5)"/>
+ <path d="M65 250h331v75H65Z" fill="var(--art-deep,#14213D)" stroke="none"/>
+ <circle cx="244" cy="280" r="78" fill="var(--art-paper,#FFFFFF)"/>
+ <circle cx="244" cy="280" r="50" fill="var(--art-deep,#14213D)"/>
+ <path d="M218 270q0-21 23-23" fill="none" stroke="var(--art-paper,#FFFFFF)" stroke-width="8"/>
+ <circle cx="104" cy="222" r="10" fill="var(--art-accent,#FCA311)" stroke="none"/>
+</g>
+<g data-part="clock">
+ <path d="m563 523-18 47M735 523l18 47" stroke-width="17"/>
+ <circle cx="650" cy="390" r="157" fill="var(--art-soft,#E5E5E5)"/>
+ <circle cx="650" cy="390" r="129" fill="var(--art-paper,#FFFFFF)"/>
+ <path d="M650 276v20M764 390h-20M650 504v-20M536 390h20"/>
+ <path d="M650 390v89M650 390l77-21" stroke="var(--art-accent,#FCA311)" stroke-width="12"/>
+ <circle cx="650" cy="390" r="10" fill="var(--art-ink,#14213D)" stroke="none"/>
+</g>
+<g data-part="bell"><path d="M539 272 501 238q-6-44 35-63t75 11l-15 41Z" fill="var(--art-accent,#FCA311)"/><path d="m761 272 38-34q6-44-35-63t-75 11l15 41Z" fill="var(--art-accent,#FCA311)"/><path d="M650 210v-24M633 184h34"/></g>
+<g data-part="ring" fill="none" stroke="var(--art-accent,#FCA311)" stroke-width="9"><path data-draw="true" d="M494 164q-31 28-35 68M475 137q-42 32-47 80M797 164q31 28 35 68M816 137q42 32 47 80"/></g>
+<g data-part="time" stroke="none"><rect x="554" y="586" width="198" height="75" rx="16" fill="var(--art-deep,#14213D)"/><text x="653" y="639" text-anchor="middle" font-size="43" fill="var(--art-paper,#FFFFFF)">14:30</text></g>
+
+</g></svg>

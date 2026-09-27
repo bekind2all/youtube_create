@@ -23,8 +23,8 @@
     },
     {
       "path": "assets/brand/components.json",
-      "bytes": 671,
-      "sha256": "70771557f029a243eb17b8416fe625554b83acc608096ef412cc83dfa32cdc2c"
+      "bytes": 1214,
+      "sha256": "324a94e78075f572c8064b1e9e2f92d4ea66f80091c0c339b51e383a1edf3f1a"
     },
     {
       "path": "assets/brand/narration-rhythm.json",
@@ -135,6 +135,31 @@
       "path": "assets/icons/underline.svg",
       "bytes": 235,
       "sha256": "fb590633b65c25de3b1b4d49433bb4314b91176baead5b3587f508667a2b9f9b"
+    },
+    {
+      "path": "assets/illustrations/ai-workbench.svg",
+      "bytes": 2645,
+      "sha256": "a7959408d60d181cc0da75365e3a3c355225da389ef3b7275bb0929203253d0a"
+    },
+    {
+      "path": "assets/illustrations/filming-reminder.svg",
+      "bytes": 2360,
+      "sha256": "c90e51076ecd5e9705fe8822485c0e2e7e8493cae52e4a7637ba759544ed38d2"
+    },
+    {
+      "path": "assets/illustrations/review-and-revise.svg",
+      "bytes": 2691,
+      "sha256": "c39008a4b976ee8b716fd9bc09535e197ba4b1d76ef451db0314523425773987"
+    },
+    {
+      "path": "assets/illustrations/voice-to-calendar.svg",
+      "bytes": 2899,
+      "sha256": "7c5861c6a5f4083cf159c4fc76052833d4e521bd8eb2538d16c5e67f103f75f8"
+    },
+    {
+      "path": "assets/motion/fit-text-underlines.js",
+      "bytes": 1062,
+      "sha256": "ad41a66715f8280ff78ad0ad8b6bd128f9e918ff483d187778268e27d0073bb7"
     },
     {
       "path": "assets/palettes/palette-01.png",

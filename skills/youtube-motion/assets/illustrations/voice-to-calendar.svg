@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="손에 든 휴대폰의 음성 입력이 일정으로 정리되는 설명 일러스트">
+<title>손에 든 휴대폰의 음성 입력이 일정으로 정리되는 설명 일러스트</title>
+<g stroke="var(--art-ink,#14213D)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" font-family="Paper,sans-serif" font-weight="800">
+
+<g data-part="ground" stroke="none"><ellipse cx="280" cy="639" rx="239" ry="30" fill="var(--art-soft,#E5E5E5)"/><ellipse cx="684" cy="580" rx="166" ry="20" fill="var(--art-soft,#E5E5E5)"/></g>
+<g data-part="phone">
+ <rect x="112" y="37" width="298" height="521" rx="43" fill="var(--art-deep,#14213D)"/>
+ <rect x="133" y="66" width="256" height="443" rx="22" fill="var(--art-paper,#FFFFFF)"/>
+ <path d="M223 83h76" fill="none"/>
+ <circle cx="261" cy="265" r="87" fill="var(--art-accent,#FCA311)" stroke="none"/>
+ <g stroke="var(--art-on-accent,#14213D)" fill="none"><rect x="241" y="214" width="40" height="70" rx="20"/><path d="M224 264v10a37 37 0 0 0 74 0v-10M261 311v21M241 332h40"/></g>
+ <path d="M188 397h145M211 427h100" stroke="var(--art-soft,#E5E5E5)" stroke-width="15"/>
+ <path d="M235 534h52" stroke="var(--art-paper,#FFFFFF)"/>
+</g>
+<g data-part="hand" fill="var(--art-paper,#FFFFFF)">
+ <path d="M95 489c-39-34-25-71-8-75 13-3 24 15 34 33l29 53 10 8-2-128c0-31 42-32 45-2l7 74 5-21c7-22 40-21 44 3 14-23 45-15 45 9 25-14 46 1 43 27l-9 85c-4 43-28 58-33 78H151c-3-36-23-64-40-91Z"/>
+ <path d="M211 450v44M259 441v55M304 450v50" fill="none"/>
+ <path d="M142 629h181v54H142Z" fill="var(--art-soft,#E5E5E5)"/>
+</g>
+<g data-part="wave" stroke="var(--art-accent,#FCA311)" stroke-width="13"><path d="M452 200v36M481 178v80M510 153v130M539 189v60"/></g>
+<g data-part="calendar">
+ <rect x="545" y="323" width="303" height="237" rx="22" fill="var(--art-paper,#FFFFFF)"/>
+ <path d="M545 390v-45q0-22 22-22h259q22 0 22 22v45Z" fill="var(--art-soft,#E5E5E5)"/>
+ <path d="M604 302v43M786 302v43"/>
+ <g stroke="none" fill="var(--art-ink,#14213D)"><circle cx="591" cy="429" r="7"/><circle cx="638" cy="429" r="7"/><circle cx="686" cy="429" r="7"/><circle cx="735" cy="429" r="7"/><circle cx="795" cy="429" r="7"/></g>
+</g>
+<g data-part="date-token">
+ <rect x="579" y="150" width="235" height="125" rx="21" fill="var(--art-deep,#14213D)" stroke="none"/>
+ <text x="696" y="229" text-anchor="middle" font-size="52" fill="var(--art-paper,#FFFFFF)" stroke="none">15:00</text>
+</g>
+<g data-part="event"><rect x="571" y="462" width="252" height="69" rx="14" fill="var(--art-accent,#FCA311)" stroke="none"/><text x="698" y="509" text-anchor="middle" font-size="36" fill="var(--art-on-accent,#14213D)" stroke="none">15:00–16:00</text></g>
+<g data-part="connector" fill="none" stroke="var(--art-accent,#FCA311)"><path data-draw="true" d="M697 284v27m-14-12 14 13 14-13"/></g>
+
+</g></svg>

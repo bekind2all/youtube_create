@@ -5,6 +5,7 @@
 | Paperlogy 4/5/7/8 | WOFF2 | [공식 배포처](https://freesentation.blog/paperlogyfont), `Paperlogy-OFL.txt` 동봉. 기존 사용자 TTF에서 포맷 변환, 디자인 변경 없음 |
 | 광양감동체 | 원본 TTF | [광양시 공식 배포처](https://gwangyang.go.kr/menu.es?mid=a11303090200), 공공누리 제1유형 출처 표시. `Gwangyang-NOTICE.md` 동봉 |
 | 오늘AI 팔레트·SVG·캐릭터·보드 | 일반 파일 | 사용자 제공 또는 이 프로젝트에서 제작. 승인 캐릭터 외 파생 포즈·모델 시트는 참고용이며 최종 승인과 구분 |
+| 레이어 설명 일러스트 4종·밑줄 기하 함수 | `assets/illustrations/`, `assets/motion/` | 이 프로젝트에서 직접 작성. 제품 공식 UI·실행 증거가 아닌 설명용 그림. 해당 에피소드의 값·조건과 선택 팔레트로 조정해 사용 |
 | 사용자 목소리·동의·등록 프로필 | 암호화 파일 | 소유자 개인용. 키 없이 복원할 수 없으며, API 키와 복호화 키는 Git에 포함하지 않음 |
 | HyperFrames·GSAP | npm 의존성 | 각 패키지의 원래 라이선스 적용. 소스 저장소에 node_modules를 복사하지 않음 |
 | 기존 강의·스타일 분석 | docs | 기존 저장소 문서 보존 |

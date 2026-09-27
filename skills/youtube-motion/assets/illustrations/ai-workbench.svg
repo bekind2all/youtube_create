@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="AI에게 요청한 기능을 코드와 휴대폰 앱으로 만드는 설명 일러스트">
+<title>AI에게 요청한 기능을 코드와 휴대폰 앱으로 만드는 설명 일러스트</title>
+<g stroke="var(--art-ink,#14213D)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" font-family="Paper,sans-serif" font-weight="800">
+
+<g data-part="ground" stroke="var(--art-soft,#E5E5E5)"><path d="M29 638h842"/></g>
+<g data-part="laptop">
+ <rect x="57" y="191" width="510" height="352" rx="24" fill="var(--art-soft,#E5E5E5)"/>
+ <rect x="79" y="216" width="466" height="296" rx="9" fill="var(--art-paper,#FFFFFF)"/>
+ <path d="M57 543h510l49 53c6 7 0 20-13 20H25c-14 0-20-13-11-22Z" fill="var(--art-paper,#FFFFFF)"/>
+ <path d="M238 544h153l22 28H218Z" fill="var(--art-soft,#E5E5E5)"/>
+ <g stroke="none" fill="var(--art-accent,#FCA311)"><circle cx="103" cy="238" r="5"/><circle cx="122" cy="238" r="5"/><circle cx="141" cy="238" r="5"/></g>
+ <path d="M79 260h465" stroke-width="4"/>
+ <text x="112" y="321" font-size="43" fill="var(--art-ink,#14213D)" stroke="none">AI</text>
+</g>
+<g data-part="request"><path d="M134 18h263l44 46v99H134Z" fill="var(--art-paper,#FFFFFF)"/><path d="M397 18v46h44" fill="var(--art-soft,#E5E5E5)"/><path d="M169 61h139M169 95h198M169 128h142" stroke="var(--art-soft,#E5E5E5)" stroke-width="11"/></g>
+<g data-part="code" fill="none"><path data-draw="true" d="M157 359h117M190 393h215M190 428h145M157 465h226" stroke="var(--art-soft,#E5E5E5)" stroke-width="14"/><path data-draw="true" d="M440 350l26 27-26 27M471 432l-26 27 26 26" stroke="var(--art-accent,#FCA311)" stroke-width="10"/></g>
+<g data-part="app">
+ <rect x="638" y="127" width="220" height="481" rx="34" fill="var(--art-deep,#14213D)"/>
+ <rect x="655" y="148" width="186" height="420" rx="20" fill="var(--art-paper,#FFFFFF)"/>
+ <path d="M724 165h49M725 588h45" stroke="var(--art-soft,#E5E5E5)"/>
+ <circle cx="748" cy="258" r="41" fill="var(--art-accent,#FCA311)" stroke="none"/>
+ <path d="M732 250v14a16 16 0 0 0 32 0v-14M748 278v12" fill="none" stroke="var(--art-on-accent,#14213D)"/>
+ <rect x="675" y="335" width="146" height="139" rx="15" fill="var(--art-soft,#E5E5E5)" stroke="none"/>
+ <path d="M696 368h104M696 399h78M696 435h93" stroke="var(--art-ink,#14213D)" stroke-width="8"/>
+</g>
+<g data-part="connector" stroke="var(--art-accent,#FCA311)" fill="none"><path data-draw="true" d="M569 330q29-32 55 0m-11-15 11 15-15 12"/></g>
+<g data-part="cursor"><path d="m474 470 3 84 25-22 25 42 23-14-26-43 32-3Z" fill="var(--art-accent,#FCA311)"/></g>
+
+</g></svg>
