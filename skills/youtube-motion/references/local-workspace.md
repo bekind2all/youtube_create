@@ -4,6 +4,8 @@
 
 이 문서의 `assets/`, `scripts/`, `templates/`는 **이 스킬 폴더 기준**이다. `cwd`나 D 드라이브를 가정하지 않는다. 설정은 기본 `~/.config/youtube-motion/settings.json`이며 `YOUTUBE_MOTION_HOME`으로 변경할 수 있다. 설치 도구가 현재 PC의 저장소 위치를 `toolkit_root`에 기록한다. 저장소를 옮기면 설치 도구를 다시 실행한다.
 
+로컬 설정의 선택 항목 `active_episode_dir`는 마지막으로 작업한 에피소드 폴더다. 기존 영상 이어하기에 사용하며, 새 제작의 주제를 대신하지 않는다. 폴더의 `production-status.json`에서 `revision`, `production_script`, `timeline`, `review_document`, `artifacts`, `render_projects` 등 존재하는 최신 포인터를 읽는다. 원고와 화면의 참고 버전이 다를 수 있으므로 스타일 기준 시안 V2·V3를 최신 원고로 오인하지 않는다. 새 PC에서는 해당 에피소드 파일도 옮겨야 이전 영상 자체를 수정할 수 있다. 현재 PC의 경로를 공개 스킬에 고정하지 않는다.
+
 ## 함께 제공하는 자산
 
 | 자료 | 위치 |
