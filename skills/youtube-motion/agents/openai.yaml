@@ -1,6 +1,6 @@
 interface:
   display_name: "YouTube Motion · 오늘AI"
-  short_description: "오늘AI의 두 가지 스타일·본인 음성·활용 사례 말투로 롱폼·숏폼 제작"
+  short_description: "오늘AI 영상 제작부터 완성본 승인 후 제목·설명·썸네일과 YouTube 업로드까지"
   brand_color: "#14213D"
   default_prompt: "$youtube-motion 유튜브 모션영상 만들자. 저장된 오늘AI 제작 기준과 필요한 최신 작업 기록을 읽고 진행해줘."
 policy:
