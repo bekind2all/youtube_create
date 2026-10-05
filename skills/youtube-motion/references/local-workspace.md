@@ -33,6 +33,8 @@ Python 3.10+, Node.js 22+, FFmpeg/FFprobe가 필요하다. `requirements.txt`와
 - `scripts/youtube_motion.py speak --text-file ... --output ...`: 등록된 본인 음성으로 Google TTS 호출. 다른 목소리로 자동 대체하지 않음.
 - `scripts/youtube_motion.py new <새폴더> --format long|short`: 로컬 폰트·SVG·GSAP가 연결된 HyperFrames 시작 프로젝트. 기존 폴더 덮어쓰지 않음.
 - `scripts/youtube_motion.py hf <프로젝트> check|snapshot|render ...`: 고정된 HyperFrames 버전으로 도구 실행.
+- `node scripts/scene-checks.js <구간 폴더>...`: 렌더 전 자동 검사 5종(강조 위치·글자 대비·잘림·빠진 화살표·빈 여백). Chrome은 `CHROME_PATH` 또는 HyperFrames가 받아 둔 puppeteer 캐시를 쓴다.
+- `assets/motion/box-motion.js`: 선이 영역을 그린 뒤 펼치는 박스, 모서리 곡률을 따르는 테두리, 장면 범위의 곡선 화살표, 형광펜 강조, 순차 퇴장. HyperFrames 구간에서 `tl` 타임라인을 만든 뒤 불러온다.
 - `scripts/private_bundle.py restore --bundle ... --key-file ...`: 별도 키 파일로 암호화된 소유자 자료 복원. Git 체크아웃 안에는 복원하지 않음.
 
 12초짜리 무음 시작 프로젝트는 설치·렌더 확인용이며 본편이나 완성된 리디자인 템플릿이 아니다. 실제 주제에서는 승인된 원고와 음성, 공식 자료, 결과 화면, 의미 단위 자막, 내용에 맞는 모션을 작성한다. 기존 에피소드의 실행 환경을 옮길 때는 그 에피소드의 소스·자산·타임라인도 별도로 옮긴다.
