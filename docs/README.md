@@ -12,6 +12,7 @@
 | [05_도구검증_HyperFrames_vs_Remotion.md](05_도구검증_HyperFrames_vs_Remotion.md) | 이 환경에서 실제 설치·렌더한 결과, 당신 프로젝트 check 오류 재현·원인·패치 |
 | [06_적용_로드맵_및_프롬프트.md](06_적용_로드맵_및_프롬프트.md) | 7단계 로드맵 + 프롬프트 6개 |
 | [07_Notion_공개스킬_활용.md](07_Notion_공개스킬_활용.md) | 공개 스킬 6개에서 가져올 규칙 문장 |
+| [08_AI_숏폼드라마_제작가이드.md](08_AI_숏폼드라마_제작가이드.md) | 원카AI 영상 기준 AI 숏폼 드라마 제작 순서, 원문·재구성 프롬프트, 비용표, 주의점 |
 | assets/tool-tests/ | Remotion·HyperFrames 렌더 증거(프레임 PNG, 3초 MP4, 테스트 컴포지션 소스) |
 | assets/tool-tests/ai-news-video-check/ | 당신 프로젝트 재현 증거: 패치 diff, check 전/후 JSON, 스택트레이스, 패치 후 렌더 프레임 3장 |
 
