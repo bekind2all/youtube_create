@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:H;src:url(Paperlogy-8ExtraBold.woff2)}
+@font-face{font-family:B;src:url(Paperlogy-5Medium.woff2)}
+:root{--ink:#000000;--navy:#14213D;--acc:#FCA311;--muted:#E5E5E5;--paper:#FFFFFF}
+*{box-sizing:border-box;margin:0}
+body{width:1920px;height:1080px;overflow:hidden;background:var(--muted);font-family:B;color:var(--navy)}
+.s{position:absolute;inset:0;display:none}
+.card{position:absolute;background:var(--paper);border-radius:28px;box-shadow:0 18px 40px rgba(20,33,61,.12)}
+.h{font-family:H;color:var(--navy)}
+.acc{color:var(--acc)}
+#cursor{position:absolute;width:56px;height:56px;z-index:9;display:none}
+.chk{position:absolute;width:64px;height:64px;border-radius:50%;background:var(--acc);color:var(--navy);font-family:H;font-size:40px;display:flex;align-items:center;justify-content:center}
+</style></head><body>
+
+<!-- 1 훅 -->
+<div class="s" id="s1">
+  <div class="card" style="left:180px;top:300px;width:420px;height:480px;background:#fff6e0;transform:rotate(-4deg);padding:48px">
+    <div class="h" style="font-size:44px;margin-bottom:28px">할 일</div>
+    <div style="font-size:36px;line-height:2">· 회의록 노션 정리<br>· 맛집 검색<br>· 일정 메모</div>
+  </div>
+  <div class="h" id="type1" style="position:absolute;left:720px;top:380px;font-size:96px;line-height:1.3"></div>
+</div>
+
+<!-- 2 도구 공개 -->
+<div class="s" id="s2">
+  <div class="card" id="app" style="left:810px;top:290px;width:300px;height:300px;display:flex;align-items:center;justify-content:center">
+    <svg width="160" height="160" viewBox="0 0 100 100"><path id="bub" d="M15 20h70a8 8 0 0 1 8 8v36a8 8 0 0 1-8 8H45L25 88V72H15a8 8 0 0 1-8-8V28a8 8 0 0 1 8-8z" fill="#14213D"/><circle cx="32" cy="46" r="6" fill="#fff"/><circle cx="50" cy="46" r="6" fill="#fff"/><circle cx="68" cy="46" r="6" fill="#fff"/></svg>
+  </div>
+  <div id="lab1" style="position:absolute;left:330px;top:400px;background:var(--navy);color:#fff;font-family:H;font-size:44px;padding:16px 30px;border-radius:14px">ChatGPT →</div>
+  <div class="h" id="t2" style="position:absolute;width:100%;text-align:center;top:680px;font-size:80px">여기에 <span class="acc">연결</span>만 하면</div>
+</div>
+
+<!-- 3 연결 대상 3개 -->
+<div class="s" id="s3">
+  <div class="card c3" style="left:200px;top:300px;width:440px;height:420px"></div>
+  <div class="card c3" style="left:740px;top:300px;width:440px;height:420px"></div>
+  <div class="card c3" style="left:1280px;top:300px;width:440px;height:420px"></div>
+  <div class="h" style="position:absolute;width:100%;text-align:center;top:150px;font-size:72px">오늘 연결할 <span class="acc">세 가지</span></div>
+</div>
+
+<!-- 4 토글 -->
+<div class="s" id="s4">
+  <div class="card" style="left:460px;top:250px;width:1000px;height:520px;padding:60px 80px">
+    <div class="h" style="font-size:56px;margin-bottom:50px">커넥터</div>
+    <div class="row" style="font-size:52px;font-family:H;height:120px;position:relative">노션 MCP<div class="tg"></div></div>
+    <div class="row" style="font-size:52px;font-family:H;height:120px;position:relative">PlayMCP<div class="tg"></div></div>
+  </div>
+  <div class="h" id="t4" style="position:absolute;width:100%;text-align:center;top:850px;font-size:72px">켜는 순간 <span class="acc">대화로 일 처리</span></div>
+</div>
+
+<!-- 5 큰 숫자 -->
+<div class="s" id="s5">
+  <div class="card" style="left:360px;top:300px;width:520px;height:480px;display:flex;align-items:center;justify-content:center;font-size:140px"><div class="h" style="font-size:72px;text-align:center">코드 입력<br><span style="font-size:48px;color:#999">&lt;/&gt;</span></div></div>
+  <div class="card" style="left:1040px;top:300px;width:520px;height:480px;display:flex;flex-direction:column;align-items:center;justify-content:center">
+    <div class="h acc" id="zero" style="font-size:260px;line-height:1">0</div>
+    <div class="h" style="font-size:52px">줄 코딩</div>
+  </div>
+</div>
+
+<!-- 6 로고 -->
+<div class="s" id="s6" style="background:var(--muted)">
+  <div id="logo" style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:flex;align-items:center;gap:30px">
+    <div class="h" style="font-size:220px;letter-spacing:-6px">오늘</div>
+    <div style="background:var(--acc);border-radius:24px;padding:10px 46px;transform:rotate(-4deg)"><div class="h" style="font-size:220px">AI</div></div>
+  </div>
+</div>
+
+<svg id="cursor" viewBox="0 0 24 24"><path d="M3 2l7 19 2.5-7.5L20 11z" fill="#000" stroke="#fff" stroke-width="1.5"/></svg>
+
+<script>
+const $=q=>document.querySelector(q), $$=q=>[...document.querySelectorAll(q)];
+const cl=(x)=>Math.max(0,Math.min(1,x));
+const ease=x=>{x=cl(x);return 1-Math.pow(1-x,3)};
+const back=x=>{x=cl(x);const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const S=[0,3.5,7,11.5,15.5,19,23]; // 장면 경계(초)
+const items=[["N","노션 MCP","내 페이지 읽고 쓰기"],["P","PlayMCP","카카오 도구 모음"],["→","실전 예시","대화 한 번으로 정리"]];
+$$('.c3').forEach((c,i)=>c.innerHTML=`<div style="font-family:H;color:#FCA311;font-size:140px;text-align:center;margin-top:50px">${items[i][0]}</div><div class="h" style="text-align:center;font-size:56px;margin-top:20px">${items[i][1]}</div><div style="text-align:center;font-size:36px;margin-top:14px">${items[i][2]}</div>`);
+$$('.tg').forEach(t=>{t.style.cssText='position:absolute;right:0;top:0;width:150px;height:80px;border-radius:40px;background:#E5E5E5';t.innerHTML='<div style="position:absolute;top:8px;left:8px;width:64px;height:64px;border-radius:50%;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,.2)"></div>'});
+const cur=$('#cursor');
+function cursorAt(x,y,press){cur.style.display='block';cur.style.left=x+'px';cur.style.top=y+'px';cur.style.transform=`scale(${press?0.8:1})`}
+window.render=function(t){
+  $$('.s').forEach(s=>s.style.display='none');cur.style.display='none';
+  let i=S.findIndex((v,k)=>t>=v&&t<S[k+1]); if(i<0)i=5;
+  const lt=t-S[i]; $('#s'+(i+1)).style.display='block';
+  if(i===0){const full='ChatGPT한테\n노션 정리까지\n시킬 수 있다면?';const n=Math.floor(cl(lt/2.2)*full.length);
+    $('#type1').innerHTML=full.slice(0,n).replace(/\n/g,'<br>').replace('노션 정리','<span class="acc">노션 정리</span>')+(lt%0.6<0.3?'|':'');}
+  if(i===1){const p=ease((lt-0.3)/1.2);cursorAt(1500-p*480,800-p*330,lt>1.6&&lt<1.8);
+    const on=lt>1.7;$('#app').style.background=on?'#FCA311':'#fff';$('#app').style.transform=`scale(${on?back((lt-1.7)/0.4)*0.1+1:1})`;
+    $('#lab1').style.opacity=ease(lt/0.5);$('#t2').style.opacity=ease((lt-1.9)/0.4);$('#t2').style.transform=`translateY(${(1-ease((lt-1.9)/0.4))*40}px)`;}
+  if(i===2){$$('.c3').forEach((c,k)=>{const p=back((lt-0.3-k*0.45)/0.5);c.style.opacity=cl((lt-0.3-k*0.45)/0.2);c.style.transform=`translateY(${(1-p)*120}px)`;});}
+  if(i===3){[1.0,2.2].forEach((at,k)=>{const r=$$('.row')[k];cursorAt(1340,370+k*120+40,lt>at&&lt<at+0.2);if(lt<at&&k===1&&lt<1.0)cur.style.top='800px';
+      const p=ease((lt-at)/0.25);const tg=$$('.tg')[k];tg.style.background=p>0.5?'#FCA311':'#E5E5E5';tg.firstChild.style.left=(8+p*70)+'px';});
+    if(lt<1.0){const p=ease(lt/0.9);cursorAt(1600-p*260,900-p*490,false)}else if(lt<2.2){const p=ease((lt-1.3)/0.7);cursorAt(1340,410+p*120,lt>1.0&&lt<1.2)}
+    $('#t4').style.opacity=ease((lt-2.6)/0.4);}
+  if(i===4){$('#zero').style.transform=`scale(${back((lt-0.6)/0.5)})`;}
+  if(i===5){const p=back(lt/0.7);$('#logo').style.transform=`translate(-50%,-50%) scale(${0.6+0.4*p})`;$('#logo').style.opacity=cl(lt/0.3);}
+};
+render(0);
+</script></body></html>
